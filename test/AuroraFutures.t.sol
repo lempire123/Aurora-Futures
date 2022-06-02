@@ -64,12 +64,4 @@ contract ContractTest is Test, HelperContract {
         vm.expectRevert("Maturity date not reached");
         futures.redeemAll();
     }
-
-
-
-    
-
-    
-
-
 }
